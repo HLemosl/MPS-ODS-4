@@ -1,0 +1,52 @@
+:root {
+    --color-page: #c5192d;
+    --color-bar: #eeeff2;
+    --color-blocks: #dadcd8;
+}
+
+* {
+    margin: 0;
+}
+
+.bar {
+    background: var(--color-bar);
+}
+
+.bar img {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#block {
+    background: var(--color-blocks);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#block > p {
+    background: white;
+    color: var(--color-page);
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+#block h5 {
+    padding: 20px 5px 10px;
+}
+
+#answer p {
+    margin-top: 20px;
+
+}
+
+#topic {
+    margin-top: 30px;
+}
+
+#title {
+    margin-top: 20px;
+} 
